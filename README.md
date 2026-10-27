@@ -1,6 +1,6 @@
 # easton-apps
 
-The launcher page for Easton staff and coaches at https://apps.eastontc.com. It links to the
+The launcher page for Easton staff and coaches at https://apps.eastonbjj.com. It links to the
 Easton apps and shows how to connect the Easton MCP server to Claude, ChatGPT and Claude Code.
 
 ## Change the links
@@ -29,5 +29,6 @@ Use Node 22. Install with npm 11.
 
 ## Deploy
 
-Vercel project `easton-apps`. A push to `main` deploys production. DNS for `apps.eastontc.com`
-is one record at GoDaddy in the eastontc.com zone, which points to Vercel.
+Vercel project `easton-apps`. A push to `main` deploys production. DNS for `apps.eastonbjj.com`
+is one record at GoDaddy in the eastonbjj.com zone: `A apps 76.76.21.21`, which points to Vercel.
+The project also holds `apps.eastontc.com`, but the eastontc.com zone has no record for it.
