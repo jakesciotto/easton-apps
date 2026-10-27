@@ -31,4 +31,3 @@ Use Node 22. Install with npm 11.
 
 Vercel project `easton-apps`. A push to `main` deploys production. DNS for `apps.eastonbjj.com`
 is one record at GoDaddy in the eastonbjj.com zone: `A apps 76.76.21.21`, which points to Vercel.
-The project also holds `apps.eastontc.com`, but the eastontc.com zone has no record for it.
