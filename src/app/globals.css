@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #f4f1ea;
+  --color-paper: #ffffff;
+  --color-ink: #0d0d0c;
+  --color-red: #f04137;
+  --color-red-press: #dc362d;
+  --color-red-shadow: #961e18;
+  --color-line: rgb(13 13 12 / 0.12);
+  --color-line-strong: rgb(13 13 12 / 0.22);
+  --color-muted: rgb(13 13 12 / 0.62);
+  --color-faint: rgb(13 13 12 / 0.45);
+
+  --shadow-rest: 0 1px 0 rgb(13 13 12 / 0.06), 0 16px 32px -28px rgb(13 13 12 / 0.5);
+  --shadow-lift: 0 1px 2px rgb(13 13 12 / 0.18), 0 12px 26px -14px rgb(13 13 12 / 0.5);
+  --shadow-button: 0 2px 0 var(--color-red-shadow), 0 8px 20px rgb(240 65 55 / 0.28);
+  --shadow-button-press: 0 1px 0 var(--color-red-shadow), 0 4px 12px rgb(240 65 55 / 0.24);
+}
+
+@theme inline {
+  --font-display: var(--font-anton), Impact, "Arial Narrow", sans-serif;
+  --font-label: var(--font-oswald), "Arial Narrow", sans-serif;
+  --font-body: var(--font-barlow), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-plex-mono), ui-monospace, Menlo, monospace;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  body {
+    @apply bg-canvas font-body text-[15px] leading-normal text-ink antialiased;
+  }
+}
