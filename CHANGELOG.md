@@ -4,6 +4,12 @@ All notable changes to this project are documented in this file. The format foll
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [0.2.1] - 2026-10-31
+
+### Fixed
+
+- The launcher serves at https://apps.eastontc.com. The apps.eastonbjj.com record was a mistake.
+
 ## [0.2.0] - 2026-10-27
 
 ### Changed
